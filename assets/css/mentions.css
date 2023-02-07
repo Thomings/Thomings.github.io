@@ -1,8 +1,10 @@
+/* Taille de la mention */
 .description_metions {
     width: 60%;
     font-size: 20px;
     line-height: 1.5;  
 }
+/* L'espace entre les phrases */
 .section {
     gap: 30px;
 }

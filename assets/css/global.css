@@ -4,9 +4,23 @@
     text-decoration: none;
     list-style: none;
 }
-body{
-    background-image: linear-gradient(gray,white);
+
+html{
     height: 100%;
+    width: 100%;
+    display: table;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: linear-gradient(gray,white) ;
+    min-height: 100%;
+    display: table-cell;
 }
 /* header */
 
@@ -38,7 +52,7 @@ body{
     text-decoration: underline;
 }
 
-/* other */
+/* La taille de chaque sections */
 
 .section {
     display: flex;
@@ -46,9 +60,10 @@ body{
     align-items: center;
     padding: 50px;
     gap: 100px;
-    height: 100vh;
+    height: 100%;
 }
 
+/*  */
 .title {
     font-size: 35px;
     margin-bottom: 10px;

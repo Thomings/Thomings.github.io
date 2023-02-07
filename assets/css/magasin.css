@@ -1,3 +1,4 @@
+/* Container des 2 produits */
 .products_container {
     display: flex;
     justify-content: space-around;
@@ -6,7 +7,7 @@
     gap: 100px;
     width: 70%;
 }
-
+/* Box de produit */
 .product {
     background-color: rgb(136, 136, 136);
     width: 500px;
@@ -18,28 +19,29 @@
     box-shadow: 0px 0px 35px -5px black;
     
 }
-
+/* Taille image */
 .product img {
     border-radius: 10px;
     width: 500px;
     height: 500px;
     box-shadow: 0px 0px 50px -20px black;
 }
-
+/* Description police */
 .product_description p {
     text-align: center;
     font-size: 25px;
 }
-
+/* Police pentest Int */
 .pentest_externe {
     text-align: center;
     font-size: 25px;
 }
-
+/* Police pentest ex */
 .pentest_interne {
     text-align: center;
     font-size: 25px;
 }
+/* Prix */
 .prix {
     text-align: center;
 }

@@ -1,3 +1,4 @@
+/* Les contacts */
 .contacts_container {
     display: flex;
     justify-content: center;
@@ -5,7 +6,7 @@
     padding: 20px;
     gap: 50px;
 }
-
+/* Box de contact et la taille  */
 .contact {
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@
     box-shadow: 0px 0px 50px -20px black;
 }
 
+/* Taille de l'image */
 .contact a img {
     height: 125px;
     width: 125px;

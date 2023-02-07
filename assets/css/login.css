@@ -1,9 +1,10 @@
+/* La forme */
 .form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
+/* taaile d'email */
 .email {
     width: 215px;
 }
